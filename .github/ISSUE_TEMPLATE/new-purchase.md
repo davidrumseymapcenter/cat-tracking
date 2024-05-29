@@ -14,7 +14,7 @@ Add the title here
 Add where the item was purchase from
 
 **Date Arrived**
-A clear and concise description of what you expected to happen.
+An approximate date the item arrived
 
 **Additional context**
 Add any other context about the problem here.
