@@ -2,7 +2,7 @@
 name: Joint Purchase
 about: A joint purchase for the DRMC collection
 title: ''
-labels: joint-purchase
+labels: joint purchase
 assignees: lmkrueger
 ---
 
