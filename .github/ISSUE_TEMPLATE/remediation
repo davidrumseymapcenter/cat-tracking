@@ -1,1 +1,20 @@
+---
+name: remediation
+about: Metadata issues that need to be fixed
+title: ''
+labels: remediation
+assignees: lmkrueger
+---
 
+**Item identifier**
+Add the item(s) affected here
+
+**Short description**
+Add short description of the issue here
+
+
+**Date**
+An approximate date of when we became aware of the issue
+
+**Additional context**
+Add any other context about the problem here
