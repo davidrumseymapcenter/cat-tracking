@@ -1,0 +1,44 @@
+name: Cataloging remediation
+description: Submit feedback about a cataloging problem that needs remediation
+title: "[Cataloging problem] <title>"
+labels: ["remediation submission"]
+body:
+- type: textarea
+  attributes:
+    label: Brief description
+    description: A clear and concise description of what the issue is.
+  validations:
+    required: false
+- type: textarea
+  attributes:
+    label: Barcode
+    description: Add the item's barcode.
+  validations:
+    required: false
+- type: textarea
+  attributes:
+    label: Link to record
+    description: Copy and paste the link to the affected record.
+  validations:
+    required: false
+- type: textarea
+  attributes:
+    label: Your initials
+    description: Add your initials so that I can follow up with any questions if necessary.
+  validations:
+    required: false
+- type: textarea
+  attributes:
+    label: Project
+    description: Please name the project the issue is associated with, if any. 
+  validations:
+    required: false
+- type: textarea
+  attributes:
+    label: Anything else?
+    description: |
+      Links? References? Anything that will give us more context about the issue you are encountering!
+
+      Tip: You can attach images or log files by clicking this area to highlight it and then dragging files in.
+  validations:
+    required: false
