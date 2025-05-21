@@ -10,6 +10,8 @@ assignees: lmkrueger
 **Describe the issue**
 A clear and concise description of what the issue is.
 
+**Barcode**
+
 **Link to record(s)**
 
 **Screenshots**
