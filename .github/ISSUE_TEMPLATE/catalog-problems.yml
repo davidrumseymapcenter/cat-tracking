@@ -14,7 +14,7 @@ body:
     attributes:
       label: Date
       description: "Enter the date you found the issue."
-      placeholder: " "
+      placeholder: "YYYY-MM-DD"
     validations:
       required: true  
   - type: input
@@ -22,7 +22,7 @@ body:
     attributes:
       label: Your initials
       description: "Please leave your initials so that I can follow up with any further questions."
-      placeholder: ""
+      placeholder: "e.g. ECT"
     validations:
       required: true
   - type: input
@@ -30,7 +30,7 @@ body:
     attributes:
       label: Barcode
       description: "Please provide the barcode or other relevant identifier for the item."
-      placeholder: ""
+      placeholder: "e.g. 123456789"
     validations:
       required: true
   - type: dropdown
