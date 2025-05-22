@@ -1,0 +1,46 @@
+name: Cataloging problems
+description: Metadata issues that need to be fixed
+body:
+  - type: input
+    id: date
+    attributes:
+      label: Date
+      description: "Enter the date you found the issue."
+      placeholder: ""
+    validations:
+      required: true  
+  - type: input
+    id: initials
+    attributes:
+      label: Your initials
+      description: "Please leave your initials so that I can follow up with any further questions."
+      placeholder: ""
+    validations:
+      required: true
+  - type: input
+    id: identifier
+    attributes:
+      label: Barcode
+      description: "Please provide the barcode or other relevant identifier for the item."
+      placeholder: ""
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: Issue type
+      description: What kind of issue is it?
+      options:
+        - Call number mismatch
+        - Duplicate call number
+        - Wrong storage location
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Anything else that might help me solve this problem.
+    validations:
+      required: true
+      render: shell
