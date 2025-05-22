@@ -14,7 +14,7 @@ body:
     attributes:
       label: Date
       description: "Enter the date you found the issue."
-      placeholder: ""
+      placeholder: " "
     validations:
       required: true  
   - type: input
