@@ -2,7 +2,7 @@
 name: Cataloging problems
 description: Metadata issues that need to be fixed
 body:
- - type: markdown
+  - type: markdown
     attributes: 
       value: |
         Before opening a new issue, make sure this is not a duplicate.
