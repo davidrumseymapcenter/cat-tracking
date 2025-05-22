@@ -5,10 +5,10 @@ body:
   - type: markdown
     attributes: 
       value: |
-        Before opening a new issue, make sure this is not a duplicate.
+        Thank you for taking the time to report a cataloging problem. To address this issue, I need some information.
         ---
         
-        Thank you for taking the time to report a cataloging problem. To address this bug as fast as possible, I need some information.
+        Please be as complete as possible, as sometimes a lot of time passes before an issue can be addressed.
   - type: input
     id: date
     attributes:
@@ -22,7 +22,7 @@ body:
     attributes:
       label: Your initials
       description: "Please leave your initials so that I can follow up with any further questions."
-      placeholder: "e.g. ECT"
+      placeholder: "e.g. LK"
     validations:
       required: true
   - type: input
@@ -30,7 +30,7 @@ body:
     attributes:
       label: Barcode
       description: "Please provide the barcode or other relevant identifier for the item."
-      placeholder: "e.g. 123456789"
+      placeholder: "e.g. 36105226230189 or G3201.E4 1884.P6"
     validations:
       required: true
   - type: dropdown
@@ -39,9 +39,10 @@ body:
       label: Issue type
       description: What kind of issue is it?
       options:
-        - Call number mismatch
-        - Duplicate call number
+        - Call number
+        - Barcode
         - Wrong storage location
+        - Other
     validations:
       required: true
   - type: textarea
