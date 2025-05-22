@@ -3,9 +3,9 @@ name: Cataloging problems
 description: Metadata issues that need to be fixed
 body:
  - type: markdown
-    attributes:
-     value: |
-        
+    attributes: 
+      value: |
+        Before opening a new issue, make sure this is not a duplicate.
         ---
         
         Thank you for taking the time to report a cataloging problem. To address this bug as fast as possible, I need some information.
