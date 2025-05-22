@@ -30,7 +30,7 @@ body:
     attributes:
       label: Barcode
       description: "Please provide the barcode or other relevant identifier for the item."
-      placeholder: "e.g. 36105226230189 or G3201.E4 1884.P6"
+      placeholder: "e.g. 36105226230189"
     validations:
       required: true
   - type: dropdown
