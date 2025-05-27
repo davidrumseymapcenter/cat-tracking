@@ -1,26 +1,50 @@
-
-
----
 name: Joint Purchase
-about: A joint purchase for the DRMC collection
-title: ''
+description: A joint purchase with another department for the DRMC's collections
 labels: joint purchase
 assignees: lmkrueger
-
----
-
-**Item Title**
-Add the title here
-
-**Joint Funding Details**
-Add info about who else contributed to this purchase
-
-**Vendor**
-Add where the item was purchase from
-
-**Date Arrived**
-An approximate date the item arrived
-
-**Additional context**
-Add any other context about the problem here.
-
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Let's be efficient and keep track of all of our joint purchses!
+        ---
+  - type: input
+    id: date
+    attributes:
+      label: Date purchased
+      description: "Enter the date the item was purchased."
+      placeholder: "YYYY-MM-DD"
+    validations:
+      required: true
+  - type: input
+    id: department
+    attributes:
+      label: Department
+      description: "Please name the other department this item was purchased with."
+      placeholder: "e.g. 'Sarah Sussman, French and Italian Collections' or 'Zoe Dilles, Branner'"
+    validations:
+      required: true
+  - type: input
+    id: vendor
+    attributes:
+      label: Vendor
+      description: "Add where the item was purchased from."
+      placeholder: "e.g. Gerald W. Cloud Rare Books"
+    validations:
+      required: true
+  - type: input
+    id: date received
+    attributes:
+      label: Date received
+      description: "Enter the date the item was received."
+      placeholder: "YYYY-MM-DD"
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Any other pertinent info.
+    validations:
+      required: true
+      render: shell
