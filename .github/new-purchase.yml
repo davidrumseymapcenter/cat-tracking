@@ -1,0 +1,44 @@
+name: New purchase
+description: New purchases for the DRMC's collections
+labels: purchase
+assignees: lmkrueger
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please fill out this form about new purchases for the DRMC's collections.
+        ---
+
+        Thank you! Please be as complete as possible.
+  - type: input
+    id: date-purchased
+    attributes:
+      label: Date
+      description: "Enter the date the item was purchased."
+      placeholder: "YYYY-MM-DD"
+    validations:
+      required: true
+  - type: input
+    id: vendor
+    attributes:
+      label: Vendor
+      description: "Enter who the item was purchased from."
+      placeholder: "e.g. Barry Lawrence Ruderman Rare Maps"
+    validations:
+      required: true
+  - type: input
+    id: date-received
+    attributes:
+      label: Date received
+      description: "Enter the date the item was received/arrived at Stanford."
+      placeholder: "e.g. YYYY-MM-DD"
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Any additional context about the item.
+    validations:
+      required: true
+      render: shell
