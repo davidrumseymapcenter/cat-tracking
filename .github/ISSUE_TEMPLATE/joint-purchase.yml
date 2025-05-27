@@ -1,4 +1,4 @@
-name: Joint Purchase
+name: "Joint Purchase"
 description: A joint purchase with another department for the DRMC's collections
 labels: joint purchase
 assignees: lmkrueger
@@ -9,7 +9,7 @@ body:
         Let's be efficient and keep track of all of our joint purchses!
         ---
   - type: input
-    id: date
+    id: date-purchased
     attributes:
       label: Date purchased
       description: "Enter the date the item was purchased."
@@ -33,7 +33,7 @@ body:
     validations:
       required: true
   - type: input
-    id: date received
+    id: date-received
     attributes:
       label: Date received
       description: "Enter the date the item was received."
