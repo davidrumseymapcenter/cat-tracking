@@ -38,7 +38,7 @@ body:
     id: gift-details
     attributes:
       label: Gift details
-      description: The 4 Ws: what, where, when, why?
+      description: The 4 Ws, the what, the where, the when, the why?
     validations:
       required: true
       render: shell
