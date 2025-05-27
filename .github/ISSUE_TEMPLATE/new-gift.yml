@@ -1,0 +1,44 @@
+name: New gift
+description: New gift to the DRMC
+labels: gift
+assignees: lmkrueger
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Cool! A new gift for the DMRC! Tell me about it!
+        ---
+
+        Please be as complete as possible. We get a lot of "gifts".
+  - type: input
+    id: date-contact
+    attributes:
+      label: Date
+      description: "Enter the date the donor reached out to us."
+      placeholder: "YYYY-MM-DD"
+    validations:
+      required: true
+  - type: input
+    id: date-arrived
+    attributes:
+      label: Date arrived
+      description: "Enter the date the gift arrived at Stanford."
+      placeholder: "YYYY-MM-DD"
+    validations:
+      required: true
+  - type: input
+    id: donor-details
+    attributes:
+      label: Donor details
+      description: "Who is this person?"
+      placeholder: "e.g. John Smith, Esq."
+    validations:
+      required: true
+  - type: textarea
+    id: gift-details
+    attributes:
+      label: Gift details
+      description: The 4 Ws: what, where, when, why?
+    validations:
+      required: true
+      render: shell
