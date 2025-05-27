@@ -1,13 +1,12 @@
-
 name: Cataloging problems
 description: Metadata issues that need to be fixed
 body:
   - type: markdown
-    attributes: 
+    attributes:
       value: |
         Thank you for taking the time to report a cataloging problem. To address this issue, I need some information.
         ---
-        
+
         Please be as complete as possible, as sometimes a lot of time passes before an issue can be addressed.
   - type: input
     id: date
@@ -16,13 +15,13 @@ body:
       description: "Enter the date you found the issue."
       placeholder: "YYYY-MM-DD"
     validations:
-      required: true  
+      required: true
   - type: input
     id: initials
     attributes:
       label: Your initials
       description: "Please leave your initials so that I can follow up with any further questions."
-      placeholder: "e.g. LK"
+      placeholder: "e.g. LMK"
     validations:
       required: true
   - type: input
