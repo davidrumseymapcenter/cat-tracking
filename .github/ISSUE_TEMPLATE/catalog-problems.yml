@@ -1,5 +1,7 @@
 name: Cataloging problems
 description: Metadata issues that need to be fixed
+labels: remediation submission
+assignees: lmkrueger
 body:
   - type: markdown
     attributes:
