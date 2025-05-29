@@ -1,5 +1,5 @@
 ---
-name: Joint Purchase
+name: A Joint Purchase
 about: A joint purchase for the DRMC collection
 title: ''
 labels: joint purchase
