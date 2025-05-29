@@ -1,5 +1,5 @@
 ---
-name: New Purchase
+name: Deprecated_New Purchase
 about: A new purchase for the DRMC collection
 title: ''
 labels: purchase
