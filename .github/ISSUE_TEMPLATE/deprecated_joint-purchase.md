@@ -1,5 +1,5 @@
 ---
-name: A Joint Purchase
+name: Deprecated_A Joint Purchase
 about: A joint purchase for the DRMC collection
 title: ''
 labels: joint purchase
