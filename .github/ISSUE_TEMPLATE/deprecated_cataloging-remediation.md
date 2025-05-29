@@ -1,5 +1,5 @@
 ---
-name: Deprecated : Cataloging remediation
+name: Deprecated - Cataloging remediation
 about: Submit a report to help us improve our metadata
 title: Remediation submission
 labels: remediation submission
