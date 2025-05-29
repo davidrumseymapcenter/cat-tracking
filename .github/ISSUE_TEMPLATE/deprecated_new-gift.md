@@ -1,5 +1,5 @@
 ---
-name: New Gift
+name: Deprecated_New Gift
 about: A new gift for the DRMC collection
 title: ''
 labels: gift
