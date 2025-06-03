@@ -42,6 +42,7 @@ body:
       options:
         - Call number
         - Barcode
+        - Item not in SearchWorks
         - Wrong storage location
         - Other
     validations:
